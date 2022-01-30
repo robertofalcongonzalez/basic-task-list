@@ -1,18 +1,21 @@
 <script setup lang="ts">
-
+import List from './components/List.vue';
 </script>
 
 <template>
-  <vue-feather type="star"></vue-feather>
+  <div class="px-14 pt-14">
+    <List></List>
+  </div>
 </template>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #04142f;
 }
 </style>
